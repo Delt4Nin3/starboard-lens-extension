@@ -8,12 +8,10 @@
     .TableCell {
       &.number {
         text-align: right;
-        flex-grow: 0.1;
       }
 
       &.status {
         text-align: center;
-        flex-grow: 0.1;
       }
 
       .Badge {

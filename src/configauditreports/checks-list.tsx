@@ -76,7 +76,7 @@ export class ChecksList extends React.Component<Props> {
         const sorted = checks.sort(BySeverity)
 
         return (
-            <div className="ChecksList flex column">
+            <div className="ChecksList column">
                 <Table className="box grow"
                        tableId="configurationChecksTable"
                        selectable

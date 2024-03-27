@@ -28,11 +28,9 @@
 
     .TableCell {
       &.vulnerabilityID {
-        flex-grow: 0.4;
       }
 
       &.severity {
-        flex-grow: 0.2;
       }
 
       &.high {
@@ -48,7 +46,6 @@
       }
 
       &.category {
-        flex-grow: 0.3;
       }
     }
   }

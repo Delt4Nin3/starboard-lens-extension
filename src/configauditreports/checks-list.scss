@@ -18,20 +18,16 @@
     .TableCell {
       &.checkID {
         text-align: left;
-        flex-grow: 0.15;
       }
       &.severity {
         text-align: center;
-        flex-grow: 0.15;
       }
       &.messages {
         text-align: left;
-        flex-grow: 0.6;
       }
 
       &.status {
         text-align: center;
-        flex-grow: 0.1;
       }
 
       .Badge {

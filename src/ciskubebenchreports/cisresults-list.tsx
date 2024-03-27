@@ -41,7 +41,7 @@ export class CISResultsList extends React.Component<Props> {
         const {results} = this.props
 
         return (
-            <div className="CISResultsList flex column">
+            <div className="CISResultsList column">
                 <Table selectable scrollable={false} className="CISResultsTable box grow">
                     {
                         results.map((result, index) => this.getTableRow(index))

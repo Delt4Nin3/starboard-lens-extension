@@ -2,17 +2,13 @@
 
   .Table {
     .TableCell {
-      display: flex;
       align-items: center;
       text-align: left;
       &.name {
-        flex-grow: 0.45;
       }
       &.summary {
-        flex-grow: 0.4;
       }
       &.scanner {
-        flex-grow: 0.15;
       }
     }
   }
